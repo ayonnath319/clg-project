@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+
 }
 
 :root {
@@ -10,6 +11,11 @@
 }
 body{
     font-family: var(--font-family);
+    background-image: linear-gradient(rgba(4, 9, 30, .6), rgba(4, 9, 30, .6)), url(image/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container {
     width: 1200px;
@@ -61,4 +67,26 @@ body{
 }
 #menu-area>li>a:hover::before {
     width: 100%;
+}
+/* header container code start hear */
+.h1{
+    text-align: center;
+    font-size: 50px; 
+    padding: 240px;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 250px;
+}
+/* first section code start here */
+#first-section{
+    padding-top: 250px;
+    background-color: #fff;
+
+}
+.img{
+    padding: 50px;
 }
